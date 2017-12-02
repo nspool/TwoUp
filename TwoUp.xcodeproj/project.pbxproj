@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735FE1C51FD170490085175C /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 735FE1C11FD170480085175C /* Coin.m */; };
+		829EF1DD15E0E9E500E9A73C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 829EF1DC15E0E9E500E9A73C /* Game.m */; };
+		82A5B61315DBCFD600933A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A5B61215DBCFD600933A8E /* UIKit.framework */; };
+		82A5B61515DBCFD600933A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A5B61415DBCFD600933A8E /* Foundation.framework */; };
+		82A5B61715DBCFD600933A8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A5B61615DBCFD600933A8E /* CoreGraphics.framework */; };
+		82A5B61D15DBCFD600933A8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A5B61B15DBCFD600933A8E /* InfoPlist.strings */; };
+		82A5B61F15DBCFD600933A8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5B61E15DBCFD600933A8E /* main.m */; };
+		82A5B62315DBCFD600933A8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5B62215DBCFD600933A8E /* AppDelegate.m */; };
+		82A5B62615DBCFD600933A8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A5B62515DBCFD600933A8E /* ViewController.m */; };
+		82A5B62915DBCFD600933A8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A5B62715DBCFD600933A8E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		735FE1C11FD170480085175C /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+		735FE1C21FD170480085175C /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		829EF1DB15E0E9E500E9A73C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		829EF1DC15E0E9E500E9A73C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		82A5B60E15DBCFD600933A8E /* TwoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A5B61215DBCFD600933A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82A5B61415DBCFD600933A8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82A5B61615DBCFD600933A8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82A5B61A15DBCFD600933A8E /* TwoUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoUp-Info.plist"; sourceTree = "<group>"; };
+		82A5B61C15DBCFD600933A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A5B61E15DBCFD600933A8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82A5B62015DBCFD600933A8E /* TwoUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwoUp-Prefix.pch"; sourceTree = "<group>"; };
+		82A5B62115DBCFD600933A8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82A5B62215DBCFD600933A8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82A5B62415DBCFD600933A8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82A5B62515DBCFD600933A8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82A5B62815DBCFD600933A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A5B60B15DBCFD600933A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A5B61315DBCFD600933A8E /* UIKit.framework in Frameworks */,
+				82A5B61515DBCFD600933A8E /* Foundation.framework in Frameworks */,
+				82A5B61715DBCFD600933A8E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82A5B60315DBCFD600933A8E = {
+			isa = PBXGroup;
+			children = (
+				82A5B61815DBCFD600933A8E /* TwoUp */,
+				82A5B61915DBCFD600933A8E /* Supporting Files */,
+				82A5B61115DBCFD600933A8E /* Frameworks */,
+				82A5B60F15DBCFD600933A8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82A5B60F15DBCFD600933A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A5B60E15DBCFD600933A8E /* TwoUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A5B61115DBCFD600933A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A5B61215DBCFD600933A8E /* UIKit.framework */,
+				82A5B61415DBCFD600933A8E /* Foundation.framework */,
+				82A5B61615DBCFD600933A8E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82A5B61815DBCFD600933A8E /* TwoUp */ = {
+			isa = PBXGroup;
+			children = (
+				735FE1C21FD170480085175C /* Coin.h */,
+				735FE1C11FD170480085175C /* Coin.m */,
+				82A5B62115DBCFD600933A8E /* AppDelegate.h */,
+				82A5B62215DBCFD600933A8E /* AppDelegate.m */,
+				82A5B62415DBCFD600933A8E /* ViewController.h */,
+				82A5B62515DBCFD600933A8E /* ViewController.m */,
+				82A5B62715DBCFD600933A8E /* ViewController.xib */,
+				829EF1DB15E0E9E500E9A73C /* Game.h */,
+				829EF1DC15E0E9E500E9A73C /* Game.m */,
+			);
+			path = TwoUp;
+			sourceTree = "<group>";
+		};
+		82A5B61915DBCFD600933A8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82A5B61A15DBCFD600933A8E /* TwoUp-Info.plist */,
+				82A5B61B15DBCFD600933A8E /* InfoPlist.strings */,
+				82A5B61E15DBCFD600933A8E /* main.m */,
+				82A5B62015DBCFD600933A8E /* TwoUp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = TwoUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A5B60D15DBCFD600933A8E /* TwoUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A5B62C15DBCFD600933A8E /* Build configuration list for PBXNativeTarget "TwoUp" */;
+			buildPhases = (
+				82A5B60A15DBCFD600933A8E /* Sources */,
+				82A5B60B15DBCFD600933A8E /* Frameworks */,
+				82A5B60C15DBCFD600933A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoUp;
+			productName = TwoUp;
+			productReference = 82A5B60E15DBCFD600933A8E /* TwoUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A5B60515DBCFD600933A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 82A5B60815DBCFD600933A8E /* Build configuration list for PBXProject "TwoUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82A5B60315DBCFD600933A8E;
+			productRefGroup = 82A5B60F15DBCFD600933A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A5B60D15DBCFD600933A8E /* TwoUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A5B60C15DBCFD600933A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A5B61D15DBCFD600933A8E /* InfoPlist.strings in Resources */,
+				82A5B62915DBCFD600933A8E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A5B60A15DBCFD600933A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A5B61F15DBCFD600933A8E /* main.m in Sources */,
+				82A5B62315DBCFD600933A8E /* AppDelegate.m in Sources */,
+				735FE1C51FD170490085175C /* Coin.m in Sources */,
+				82A5B62615DBCFD600933A8E /* ViewController.m in Sources */,
+				829EF1DD15E0E9E500E9A73C /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82A5B61B15DBCFD600933A8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A5B61C15DBCFD600933A8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82A5B62715DBCFD600933A8E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A5B62815DBCFD600933A8E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A5B62A15DBCFD600933A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82A5B62B15DBCFD600933A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82A5B62D15DBCFD600933A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoUp/TwoUp-Prefix.pch";
+				INFOPLIST_FILE = "TwoUp/TwoUp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.nspool.TwoUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82A5B62E15DBCFD600933A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoUp/TwoUp-Prefix.pch";
+				INFOPLIST_FILE = "TwoUp/TwoUp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.nspool.TwoUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A5B60815DBCFD600933A8E /* Build configuration list for PBXProject "TwoUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A5B62A15DBCFD600933A8E /* Debug */,
+				82A5B62B15DBCFD600933A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A5B62C15DBCFD600933A8E /* Build configuration list for PBXNativeTarget "TwoUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A5B62D15DBCFD600933A8E /* Debug */,
+				82A5B62E15DBCFD600933A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A5B60515DBCFD600933A8E /* Project object */;
+}
